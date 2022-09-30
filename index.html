@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Speed Typing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Speed Typing Game</h2>
+        <button class="btn">Start Game</button>
+        <div class="game hidden">
+            <div class="top">
+            
+                <div class="single">
+                    <span>Score: </span>
+                    <span class="score">0</span>
+                </div>
+                <div class="single">
+                    <span>Time Left: </span>
+                    <span class="time-left">30</span>
+                </div>
+            </div>
+            <div class="input-section">
+                <div class="word">Hello</div>
+                <input type="text" class="input">
+            </div>
+            <div class="text"></div>
+        </div>
+        <div class="game-ended hidden">
+            <h2>Game Ended...</h2>
+            <button class="game-ended-btn">Try Again</button>
+        </div>
+    </div>
+</body>
+</html>
